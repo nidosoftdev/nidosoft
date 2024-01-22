@@ -10,69 +10,188 @@ import Footer from '../components/Footer.astro';
 
 <Layout title="web application guide">
     <Nav />
-    <main class="max-w-screen-xl block mx-auto mt-16 p-4">
-        <h2 class="text-3xl font-bold">Web Full-stack Applications Guideline</h2>
+    <div class="overflow-hidden bg-white py-24 sm:py-32">
+        <div class="mx-auto max-w-7xl px-6 lg:px-8">
+          <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+            <div class="lg:pr-8 lg:pt-4">
+              <div class="lg:max-w-lg">
+                <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Web Full-stack Applications Guideline</p>
+                <p class="mt-6 text-lg leading-8 text-gray-600">Welcome to NidoSoft's comprehensive guideline for developing robust and user-friendly full-stack applications. Our visionary team is excited to share insights and best practices to help you embark on a transformative journey in software development.</p>
+                <dl class="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
+                  
+                  <div class="relative pl-9">
+                    <dt class="inline font-semibold text-gray-900">
+                      <svg class="absolute left-1 top-1 h-5 w-5 text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M5.5 17a4.5 4.5 0 01-1.44-8.765 4.5 4.5 0 018.302-3.046 3.5 3.5 0 014.504 4.272A4 4 0 0115 17H5.5zm3.75-2.75a.75.75 0 001.5 0V9.66l1.95 2.1a.75.75 0 101.1-1.02l-3.25-3.5a.75.75 0 00-1.1 0l-3.25 3.5a.75.75 0 101.1 1.02l1.95-2.1v4.59z" clip-rule="evenodd" />
+                      </svg>
+                      Define Project Scope and Requirements.
+                    </dt>
+                    <dd class="inline">Clearly outline the project objectives and requirements to lay the foundation for a successful development journey.</dd>
+                  </div>
 
-        <div class="prose prose-lg mt-4">
-            <p class="mb-3 font-normal text-gray-500">
-                Welcome to NidoSoft's comprehensive guideline for developing robust and user-friendly full-stack applications. Our visionary team is excited to share insights and best practices to help you embark on a transformative journey in software development.
-            </p>
+                  <div class="relative pl-9">
+                    <dt class="inline font-semibold text-gray-900">
+                      <svg class="absolute left-1 top-1 h-5 w-5 text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M10 1a4.5 4.5 0 00-4.5 4.5V9H5a2 2 0 00-2 2v6a2 2 0 002 2h10a2 2 0 002-2v-6a2 2 0 00-2-2h-.5V5.5A4.5 4.5 0 0010 1zm3 8V5.5a3 3 0 10-6 0V9h6z" clip-rule="evenodd" />
+                      </svg>
+                      Technology Stack Selection.
+                    </dt>
+                    <dd class="inline">Choose the right mix of technologies for your project, ensuring a harmonious integration of frontend, backend, and database components.</dd>
+                  </div>
 
-            <h3 class="text-xl font-semibold mt-4">NidoSoft Web Full-Stack Development Guide</h3>
-            <p class="mb-3 font-normal text-gray-500">
-                Welcome to NidoSoft's comprehensive guide on building web full-stack applications! Our team follows a systematic approach to ensure the success of your projects. Let's explore the key steps we take:
-            </p>
+                  <div class="relative pl-9">
+                    <dt class="inline font-semibold text-gray-900">
+                      <svg class="absolute left-1 top-1 h-5 w-5 text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <path d="M4.632 3.533A2 2 0 016.577 2h6.846a2 2 0 011.945 1.533l1.976 8.234A3.489 3.489 0 0016 11.5H4c-.476 0-.93.095-1.344.267l1.976-8.234z" />
+                        <path fill-rule="evenodd" d="M4 13a2 2 0 100 4h12a2 2 0 100-4H4zm11.24 2a.75.75 0 01.75-.75H16a.75.75 0 01.75.75v.01a.75.75 0 01-.75.75h-.01a.75.75 0 01-.75-.75V15zm-2.25-.75a.75.75 0 00-.75.75v.01c0 .414.336.75.75.75H13a.75.75 0 00.75-.75V15a.75.75 0 00-.75-.75h-.01z" clip-rule="evenodd" />
+                      </svg>
+                      Architecture Planning
+                    </dt>
+                    <dd class="inline"> Design a robust architecture that aligns with scalability, security, and performance considerations.</dd>
+                  </div>
 
-            <ol class="list-decimal pl-6 mb-4">
-                <li class="mb-2">
-                    <strong>Define Project Scope and Requirements</strong>: Clearly outline the project objectives and requirements to lay the foundation for a successful development journey.
-                </li>
-                <li class="mb-2">
-                    <strong>Technology Stack Selection</strong>: Choose the right mix of technologies for your project, ensuring a harmonious integration of frontend, backend, and database components.
-                </li>
-                <li class="mb-2">
-                    <strong>Architecture Planning</strong>: Design a robust architecture that aligns with scalability, security, and performance considerations.
-                </li>
-                <li class="mb-2">
-                    <strong>User Interface (UI) Design</strong>: Craft a user-friendly and intuitive design by creating wireframes and mockups, ensuring an exceptional user experience.
-                </li>
-                <li class="mb-2">
-                    <strong>Frontend Development</strong>: Implement the UI design using cutting-edge frontend technologies, focusing on responsiveness and cross-browser compatibility.
-                </li>
-                <li class="mb-2">
-                    <strong>Backend Development</strong>: Build the server-side logic, implementing data processing, business logic, and APIs while prioritizing authentication and authorization.
-                </li>
-                <li class="mb-2">
-                    <strong>Database Implementation</strong>: Set up and configure the database system, develop a well-structured schema, and implement CRUD operations.
-                </li>
-                <li class="mb-2">
-                    <strong>Integration Testing</strong>: Thoroughly test the integration between frontend and backend components, addressing any compatibility issues.
-                </li>
-                <li class="mb-2">
-                    <strong>User Acceptance Testing (UAT)</strong>: Conduct UAT to validate that the application meets user requirements, incorporating feedback for refinements.
-                </li>
-                <li class="mb-2">
-                    <strong>Security Measures</strong>:Implement industry-best security practices, protecting against vulnerabilities and conducting security audits.
-                </li>
-                <li class="mb-2">
-                    <strong>Performance Optimization</strong>:Optimize code for performance and responsiveness, conducting load testing to ensure scalability.
-                </li>
-                <li class="mb-2">
-                    <strong>Documentation</strong>:Create comprehensive documentation for code, APIs, and configuration settings, empowering users and developers.
-                </li>
-                <li class="mb-2">
-                    <strong>Monitoring and Maintenance</strong>:Implement monitoring tools and logging for ongoing performance tracking and proactive maintenance.
-                </li>
-                <li class="mb-2">
-                    <strong>User Training and Support</strong>:Provide training resources for end-users and establish a robust support system to address inquiries and issues.
-                </li>
-            </ol>
+                  <div class="relative pl-9">
+                    <dt class="inline font-semibold text-gray-900">
+                      <svg class="absolute left-1 top-1 h-5 w-5 text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <path d="M4.632 3.533A2 2 0 016.577 2h6.846a2 2 0 011.945 1.533l1.976 8.234A3.489 3.489 0 0016 11.5H4c-.476 0-.93.095-1.344.267l1.976-8.234z" />
+                        <path fill-rule="evenodd" d="M4 13a2 2 0 100 4h12a2 2 0 100-4H4zm11.24 2a.75.75 0 01.75-.75H16a.75.75 0 01.75.75v.01a.75.75 0 01-.75.75h-.01a.75.75 0 01-.75-.75V15zm-2.25-.75a.75.75 0 00-.75.75v.01c0 .414.336.75.75.75H13a.75.75 0 00.75-.75V15a.75.75 0 00-.75-.75h-.01z" clip-rule="evenodd" />
+                      </svg>
+                      User Interface (UI) Design
+                    </dt>
+                    <dd class="inline"> Craft a user-friendly and intuitive design by creating wireframes and mockups, ensuring an exceptional user experience.</dd>
+                  </div>
 
-            <p class="mb-3 font-normal text-gray-500">
-                Ready to embark on your web development journey with NidoSoft? <a href="#" class="text-blue-600 hover:underline">Contact us to get started!</a>
-            </p>
+                  <div class="relative pl-9">
+                    <dt class="inline font-semibold text-gray-900">
+                      <svg class="absolute left-1 top-1 h-5 w-5 text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <path d="M4.632 3.533A2 2 0 016.577 2h6.846a2 2 0 011.945 1.533l1.976 8.234A3.489 3.489 0 0016 11.5H4c-.476 0-.93.095-1.344.267l1.976-8.234z" />
+                        <path fill-rule="evenodd" d="M4 13a2 2 0 100 4h12a2 2 0 100-4H4zm11.24 2a.75.75 0 01.75-.75H16a.75.75 0 01.75.75v.01a.75.75 0 01-.75.75h-.01a.75.75 0 01-.75-.75V15zm-2.25-.75a.75.75 0 00-.75.75v.01c0 .414.336.75.75.75H13a.75.75 0 00.75-.75V15a.75.75 0 00-.75-.75h-.01z" clip-rule="evenodd" />
+                      </svg>
+                      Frontend Development
+                    </dt>
+                    <dd class="inline"> Implement the UI design using cutting-edge frontend technologies, focusing on responsiveness and cross-browser compatibility.</dd>
+                  </div>
+
+                  <div class="relative pl-9">
+                    <dt class="inline font-semibold text-gray-900">
+                      <svg class="absolute left-1 top-1 h-5 w-5 text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <path d="M4.632 3.533A2 2 0 016.577 2h6.846a2 2 0 011.945 1.533l1.976 8.234A3.489 3.489 0 0016 11.5H4c-.476 0-.93.095-1.344.267l1.976-8.234z" />
+                        <path fill-rule="evenodd" d="M4 13a2 2 0 100 4h12a2 2 0 100-4H4zm11.24 2a.75.75 0 01.75-.75H16a.75.75 0 01.75.75v.01a.75.75 0 01-.75.75h-.01a.75.75 0 01-.75-.75V15zm-2.25-.75a.75.75 0 00-.75.75v.01c0 .414.336.75.75.75H13a.75.75 0 00.75-.75V15a.75.75 0 00-.75-.75h-.01z" clip-rule="evenodd" />
+                      </svg>
+                      Backend Development
+                    </dt>
+                    <dd class="inline">Build the server-side logic, implementing data processing, business logic, and APIs while prioritizing authentication and authorization.</dd>
+                  </div>
+
+                  <div class="relative pl-9">
+                    <dt class="inline font-semibold text-gray-900">
+                      <svg class="absolute left-1 top-1 h-5 w-5 text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <path d="M4.632 3.533A2 2 0 016.577 2h6.846a2 2 0 011.945 1.533l1.976 8.234A3.489 3.489 0 0016 11.5H4c-.476 0-.93.095-1.344.267l1.976-8.234z" />
+                        <path fill-rule="evenodd" d="M4 13a2 2 0 100 4h12a2 2 0 100-4H4zm11.24 2a.75.75 0 01.75-.75H16a.75.75 0 01.75.75v.01a.75.75 0 01-.75.75h-.01a.75.75 0 01-.75-.75V15zm-2.25-.75a.75.75 0 00-.75.75v.01c0 .414.336.75.75.75H13a.75.75 0 00.75-.75V15a.75.75 0 00-.75-.75h-.01z" clip-rule="evenodd" />
+                      </svg>
+                      Database Implementation
+                    </dt>
+                    <dd class="inline">Set up and configure the database system, develop a well-structured schema, and implement CRUD operations.</dd>
+                  </div>
+
+                  <div class="relative pl-9">
+                    <dt class="inline font-semibold text-gray-900">
+                      <svg class="absolute left-1 top-1 h-5 w-5 text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <path d="M4.632 3.533A2 2 0 016.577 2h6.846a2 2 0 011.945 1.533l1.976 8.234A3.489 3.489 0 0016 11.5H4c-.476 0-.93.095-1.344.267l1.976-8.234z" />
+                        <path fill-rule="evenodd" d="M4 13a2 2 0 100 4h12a2 2 0 100-4H4zm11.24 2a.75.75 0 01.75-.75H16a.75.75 0 01.75.75v.01a.75.75 0 01-.75.75h-.01a.75.75 0 01-.75-.75V15zm-2.25-.75a.75.75 0 00-.75.75v.01c0 .414.336.75.75.75H13a.75.75 0 00.75-.75V15a.75.75 0 00-.75-.75h-.01z" clip-rule="evenodd" />
+                      </svg>
+                      Integration Testing
+                    </dt>
+                    <dd class="inline">Thoroughly test the integration between frontend and backend components, addressing any compatibility issues.</dd>
+                  </div>
+
+                  <div class="relative pl-9">
+                    <dt class="inline font-semibold text-gray-900">
+                      <svg class="absolute left-1 top-1 h-5 w-5 text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <path d="M4.632 3.533A2 2 0 016.577 2h6.846a2 2 0 011.945 1.533l1.976 8.234A3.489 3.489 0 0016 11.5H4c-.476 0-.93.095-1.344.267l1.976-8.234z" />
+                        <path fill-rule="evenodd" d="M4 13a2 2 0 100 4h12a2 2 0 100-4H4zm11.24 2a.75.75 0 01.75-.75H16a.75.75 0 01.75.75v.01a.75.75 0 01-.75.75h-.01a.75.75 0 01-.75-.75V15zm-2.25-.75a.75.75 0 00-.75.75v.01c0 .414.336.75.75.75H13a.75.75 0 00.75-.75V15a.75.75 0 00-.75-.75h-.01z" clip-rule="evenodd" />
+                      </svg>
+                      User Acceptance Testing (UAT)
+                    </dt>
+                    <dd class="inline">Conduct UAT to validate that the application meets user requirements, incorporating feedback for refinements.</dd>
+                  </div>
+
+                </dl>
+              </div>
+            </div>
+            <div class="flex flex-col space-y-20">
+                <img src="./alvaro-bernal-QPRd_UC3nE4-unsplash.jpg" alt="Product screenshot" class="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0" width="2432" height="1442">
+                <!-- <img src="./kevin-ku-w7ZyuGYNpRQ-unsplash.jpg" alt="Product screenshot" class="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0" width="2432" height="2842"> -->
+                <!-- <img src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png" alt="Product screenshot" class="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0" width="2432" height="1442"> -->
+                <div class="relative pl-9">
+                    <dt class="inline font-semibold text-gray-900">
+                      <svg class="absolute left-1 top-1 h-5 w-5 text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <path d="M4.632 3.533A2 2 0 016.577 2h6.846a2 2 0 011.945 1.533l1.976 8.234A3.489 3.489 0 0016 11.5H4c-.476 0-.93.095-1.344.267l1.976-8.234z" />
+                        <path fill-rule="evenodd" d="M4 13a2 2 0 100 4h12a2 2 0 100-4H4zm11.24 2a.75.75 0 01.75-.75H16a.75.75 0 01.75.75v.01a.75.75 0 01-.75.75h-.01a.75.75 0 01-.75-.75V15zm-2.25-.75a.75.75 0 00-.75.75v.01c0 .414.336.75.75.75H13a.75.75 0 00.75-.75V15a.75.75 0 00-.75-.75h-.01z" clip-rule="evenodd" />
+                      </svg>
+                      Performance Optimization
+                    </dt>
+                    <dd class="inline">Optimize code for performance and responsiveness, conducting load testing to ensure scalability.</dd>
+                </div>
+
+                <div class="relative pl-9">
+                <dt class="inline font-semibold text-gray-900">
+                    <svg class="absolute left-1 top-1 h-5 w-5 text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path d="M4.632 3.533A2 2 0 016.577 2h6.846a2 2 0 011.945 1.533l1.976 8.234A3.489 3.489 0 0016 11.5H4c-.476 0-.93.095-1.344.267l1.976-8.234z" />
+                    <path fill-rule="evenodd" d="M4 13a2 2 0 100 4h12a2 2 0 100-4H4zm11.24 2a.75.75 0 01.75-.75H16a.75.75 0 01.75.75v.01a.75.75 0 01-.75.75h-.01a.75.75 0 01-.75-.75V15zm-2.25-.75a.75.75 0 00-.75.75v.01c0 .414.336.75.75.75H13a.75.75 0 00.75-.75V15a.75.75 0 00-.75-.75h-.01z" clip-rule="evenodd" />
+                    </svg>
+                    Documentation
+                </dt>
+                <dd class="inline">Create comprehensive documentation for code, APIs, and configuration settings, empowering users and developers.</dd>
+                </div>
+
+                <div class="relative pl-9">
+                <dt class="inline font-semibold text-gray-900">
+                    <svg class="absolute left-1 top-1 h-5 w-5 text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path d="M4.632 3.533A2 2 0 016.577 2h6.846a2 2 0 011.945 1.533l1.976 8.234A3.489 3.489 0 0016 11.5H4c-.476 0-.93.095-1.344.267l1.976-8.234z" />
+                    <path fill-rule="evenodd" d="M4 13a2 2 0 100 4h12a2 2 0 100-4H4zm11.24 2a.75.75 0 01.75-.75H16a.75.75 0 01.75.75v.01a.75.75 0 01-.75.75h-.01a.75.75 0 01-.75-.75V15zm-2.25-.75a.75.75 0 00-.75.75v.01c0 .414.336.75.75.75H13a.75.75 0 00.75-.75V15a.75.75 0 00-.75-.75h-.01z" clip-rule="evenodd" />
+                    </svg>
+                    Monitoring and Maintenance
+                </dt>
+                <dd class="inline">Implement monitoring tools and logging for ongoing performance tracking and proactive maintenance.</dd>
+                </div>
+
+                <div class="relative pl-9">
+                <dt class="inline font-semibold text-gray-900">
+                    <svg class="absolute left-1 top-1 h-5 w-5 text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path d="M4.632 3.533A2 2 0 016.577 2h6.846a2 2 0 011.945 1.533l1.976 8.234A3.489 3.489 0 0016 11.5H4c-.476 0-.93.095-1.344.267l1.976-8.234z" />
+                    <path fill-rule="evenodd" d="M4 13a2 2 0 100 4h12a2 2 0 100-4H4zm11.24 2a.75.75 0 01.75-.75H16a.75.75 0 01.75.75v.01a.75.75 0 01-.75.75h-.01a.75.75 0 01-.75-.75V15zm-2.25-.75a.75.75 0 00-.75.75v.01c0 .414.336.75.75.75H13a.75.75 0 00.75-.75V15a.75.75 0 00-.75-.75h-.01z" clip-rule="evenodd" />
+                    </svg>
+                    User Training and Support
+                </dt>
+                <dd class="inline">Provide training resources for end-users and establish a robust support system to address inquiries and issues.</dd>
+                </div>
+
+                <div class="relative pl-9">
+                <dt class="inline font-semibold text-gray-900">
+                    <svg class="absolute left-1 top-1 h-5 w-5 text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path d="M4.632 3.533A2 2 0 016.577 2h6.846a2 2 0 011.945 1.533l1.976 8.234A3.489 3.489 0 0016 11.5H4c-.476 0-.93.095-1.344.267l1.976-8.234z" />
+                    <path fill-rule="evenodd" d="M4 13a2 2 0 100 4h12a2 2 0 100-4H4zm11.24 2a.75.75 0 01.75-.75H16a.75.75 0 01.75.75v.01a.75.75 0 01-.75.75h-.01a.75.75 0 01-.75-.75V15zm-2.25-.75a.75.75 0 00-.75.75v.01c0 .414.336.75.75.75H13a.75.75 0 00.75-.75V15a.75.75 0 00-.75-.75h-.01z" clip-rule="evenodd" />
+                    </svg>
+                    Security Measures
+                </dt>
+                <dd class="inline">Implement industry-best security practices, protecting against vulnerabilities and conducting security audits.</dd>
+                </div>
+            </div>
             
         </div>
-    </main>
+        <div class="mx-auto  lg:text-center">
+            <p class="mt-2 text-3xl tracking-tight text-gray-900 sm:text-4xl p-10">Ready to embark on your web development journey with NidoSoft? <a href="#" class="text-blue-600 hover:underline">Contact us to get started!</a></p>
+        </div>
+        
+        <!-- <p class="mb-4 font-normal text-gray-600">
+            Ready to embark on your web development journey with NidoSoft? <a href="#" class="text-blue-600 hover:underline">Contact us to get started!</a>
+        </p> -->
+    </div>
+        
+    </div>
+      
+    
+    
     <Footer />
 </Layout>
